@@ -1,9 +1,11 @@
 # solvepuzzle
 
-Collaborative project to solve Jigsaw puzzle (in order to solve puzzles from the facebook page "association des centraliens").
+Collaborative project to solve Jigsaw puzzles (in order to solve puzzles from the facebook page "association des centraliens").
 
-<img src="data/input/input.jpg" width="47%">
-<img src="data/output/output.jpg" width="47%">
+<div>
+  <img src="data/input/input.jpg" width="40%">
+  <img src="data/output/output.jpg" width="40%">
+</div>
 
 ## 1. Puzzle Class
 
