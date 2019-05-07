@@ -1,2 +1,4 @@
 # solvepuzzle
-A project to solve friday puzzles found on the "l'association des centraliens" Facebook page.
+
+Collaborative project to solve Jigsaw puzzle (in order to solve puzzles from the facebook page "association des centraliens".
+
