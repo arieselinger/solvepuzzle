@@ -2,9 +2,10 @@ import os
 import numpy as np
 import utils
 import matplotlib.pyplot as plt
-
+import matplotlib.image as image
 from PIL import Image
-from config import HEIGHT, WIDTH, N_ROW, N_COL, HEIGHT_BLOCK, WIDTH_BLOCK
+
+from config import SAVE_FOLDER, HEIGHT, WIDTH, N_ROW, N_COL, HEIGHT_BLOCK, WIDTH_BLOCK
 
 class Puzzle:
     ''' 
@@ -59,3 +60,10 @@ class Puzzle:
         block1 = self.cut_img[i1][j1].copy()
         block2 = self.cut_img[i2][j2].copy()
         self.cut_img[i1,j1], self.cut_img[i2,j2] = block2, block1
+    
+    def save(self, filename):
+        filepath = os.path.join(SAVE_FOLDER, filename)
+        if not os.path.exists(filepath):
+            to_save_img = utils.recreate_cut_image(self.cut_img)
+            plt.imsave(filepath, utils.recreate_cut_image(self.cut_img), cmap="gray")
+
