@@ -17,7 +17,7 @@ The images you want to analyse have to be stored in the `data/input` folder
 
 ## 3. Output
 
-The result of the algorithm could be saves in the `data/ouput` folder
+The result of the algorithm could be saved in the `data/ouput` folder
 
 ## 4. Dependencies
 
