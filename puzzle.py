@@ -58,7 +58,6 @@ class Puzzle:
 
     def shuffle(self):
         np.random.shuffle(self.cut_img.reshape(N_ROW*N_COL, HEIGHT_BLOCK, WIDTH_BLOCK))
-        self.cut_img.reshape(N_ROW, N_COL, HEIGHT_BLOCK, WIDTH_BLOCK)
 
 
     def permute(self, k=None):
