@@ -21,8 +21,4 @@ The result of the algorithm could be saved in the `data/ouput` folder
 
 ## 4. Dependencies
 
-`Numpy`
-
-`Image`
-
-`matplotlib`
+See the `requirements.txt` file
